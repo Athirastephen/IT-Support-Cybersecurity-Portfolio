@@ -44,3 +44,8 @@ whoami
 - Current user: athira
 
 **Status:** ✅ Completed
+## 📸 Evidence
+
+### System Information
+
+![Linux System Information](system-information.png)
