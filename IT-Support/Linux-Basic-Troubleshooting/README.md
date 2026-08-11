@@ -130,3 +130,27 @@ Results
 ![Running Processes - ps](running-processes-ps.png)
 
 ![Running Processes - top](running-processes-top.png)
+### 5. System Resources
+
+Checked system memory, disk usage, CPU information, and system uptime.
+
+Commands used:
+
+```bash
+free -h
+df -h
+uptime
+lscpu | head -15
+```
+Results
+- Reviewed system memory usage
+- Checked available disk space
+- Reviewed system uptime and load
+- Checked CPU architecture and processor information
+
+**Status:** ✅ Completed
+
+## 📸 Evidence
+### system-resources
+
+![system-resources](system-resources.png)
