@@ -154,3 +154,28 @@ Results
 ### system-resources
 
 ![system-resources](system-resources.png)
+### 6. DNS Troubleshooting
+
+Investigated DNS resolution and verified DNS configuration using Linux commands.
+
+Commands used:
+
+```bash
+nslookup google.com
+resolvectl status
+ping -c 4 google.com
+```
+Results
+- Successfully resolved google.com using DNS
+- Verified the configured DNS server
+- Confirmed DNS resolution and internet connectivity
+- Verified 0% packet loss
+
+**Status:** ✅ Completed
+## 📸 Evidence
+
+### DNS Troubleshooting
+
+![DNS Troubleshooting](dns-troubleshooting.png)
+
+![DNS Troubleshooting](dns-troubleshooting-2.png)
