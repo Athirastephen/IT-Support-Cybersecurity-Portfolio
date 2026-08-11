@@ -35,6 +35,8 @@ Commands used:
 uname -a
 hostname
 whoami
+```
+
 ### Results
 
 - Operating System: Ubuntu Linux
@@ -44,8 +46,38 @@ whoami
 - Current user: athira
 
 **Status:** ✅ Completed
+
 ## 📸 Evidence
 
 ### System Information
 
 ![Linux System Information](system-information.png)
+### 2. File & Directory Management
+
+Created and managed files and directories using Linux commands.
+
+Commands used:
+
+```bash
+pwd
+mkdir IT-Support-Lab
+cd IT-Support-Lab
+touch test.txt
+mkdir documents
+ls -l
+```
+
+### Results
+
+- Created IT-Support-Lab directory
+- Created test.txt file
+- Created documents directory
+- Used `ls -l` to verify files and permissions
+
+**Status:** ✅ Completed
+
+## 📸 Evidence
+
+### File & Directory Management
+
+![File and Directory Management](file-directory-management.png)
