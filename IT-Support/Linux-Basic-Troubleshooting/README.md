@@ -81,3 +81,27 @@ ls -l
 ### File & Directory Management
 
 ![File and Directory Management](file-directory-management.png)
+### 3. Users & Permissions
+
+Investigated Linux users, groups, ownership, and file permissions.
+
+Commands used:
+
+```bash
+whoami
+id
+ls -l
+```
+
+### Results
+- Verified the current Linux user
+- Reviewed user and group information
+- Checked file and directory ownership
+- Reviewed Linux file permissions
+**Status:** ✅ Completed
+
+## 📸 Evidence
+
+### Users & Permissions
+
+![Users and Permissions](users-permissions.png)
