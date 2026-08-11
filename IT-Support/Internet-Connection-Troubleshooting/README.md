@@ -22,7 +22,7 @@ On Windows, run:
 
 ```cmd
 ipconfig /all
-
+```
 Result:
 
 Active Wi-Fi adapter identified
@@ -36,9 +36,9 @@ Status: ✅ Passed
 Test 2: Local Network Connectivity
 
 Command used:
-
+```cmd
 ping <default-gateway>
-
+```
 Result:
 
 4 packets sent
@@ -51,9 +51,9 @@ Status: ✅ Passed
 Test 3: Internet Connectivity
 
 Command used:
-
+```cmd
 ping 8.8.8.8
-
+```
 Result:
 
 4 packets sent
@@ -66,9 +66,9 @@ Status: ✅ Passed
 Test 4: DNS Resolution
 
 Command used:
-
+```cmd
 nslookup google.com
-
+```
 Result:
 
 DNS server responded
