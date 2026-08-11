@@ -105,3 +105,28 @@ ls -l
 ### Users & Permissions
 
 ![Users and Permissions](users-permissions.png)
+### 4. Running Processes
+
+Investigated running processes and system resource usage using Linux process-monitoring commands.
+
+Commands used:
+
+```bash
+ps
+ps aux
+top
+```
+Results
+- Viewed currently running processes
+- Reviewed processes for all users
+- Monitored CPU and memory usage
+- Used top to monitor active processes
+
+**Status:** ✅ Completed
+
+## 📸 Evidence
+
+### Running Processes
+![Running Processes - ps](running-processes-ps.png)
+
+![Running Processes - top](running-processes-top.png)
