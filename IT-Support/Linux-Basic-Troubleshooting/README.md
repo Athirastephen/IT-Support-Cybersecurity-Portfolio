@@ -308,3 +308,29 @@ lsblk
 
 ![Disk & Storage Troubleshooting](disk-storage-troubleshooting.png)
 
+## 12. Log & Error Troubleshooting
+
+Investigated Linux system logs, error messages, and kernel events to support troubleshooting.
+
+### Commands used:
+
+```bash
+journalctl -n 20
+journalctl -p err -n 20
+dmesg | tail -20
+sudo dmesg | tail -20
+```
+### Results
+
+- Reviewed recent system log entries
+- Checked error-level system messages
+- Reviewed kernel messages
+- Identified system and application-related events for troubleshooting
+
+**Status:** ✅ Completed
+
+## 📸 Evidence
+
+### Log & Error Troubleshooting
+
+![log-error-troubleshooting](log-error-troubleshooting.png)
