@@ -202,3 +202,28 @@ Results
 ### DNS Troubleshooting
 
 ![DNS Troubleshooting](dns-troubleshooting-2.png)
+
+### 8. Linux Services
+
+Investigated Linux services and checked their current running status using systemd commands.
+
+Commands used:
+
+```bash
+systemctl status NetworkManager
+systemctl --type=service --state=running
+systemctl status ssh
+```
+Results
+- Verified that NetworkManager is active and running
+- Reviewed currently running Linux services
+- Checked the status of the SSH service
+- Confirmed that SSH service is not installed on the system
+
+**Status:** ✅ Completed
+## 📸 Evidence
+
+### Linux Services
+
+![linux-services](linux-services.png)
+
