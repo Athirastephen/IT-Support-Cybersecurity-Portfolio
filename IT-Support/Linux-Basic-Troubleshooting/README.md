@@ -154,7 +154,32 @@ Results
 ### system-resources
 
 ![system-resources](system-resources.png)
-### 6. DNS Troubleshooting
+### 6. Network Troubleshooting
+
+Investigated network configuration, routing, and internet connectivity using Linux commands.
+
+Commands used:
+
+```bash
+ip addr
+ip route
+ping -c 4 8.8.8.8
+ping -c 4 google.com
+```
+Results
+- Checked network interfaces and IP address configuration
+- Verified the default gateway and routing table
+- Confirmed internet connectivity using 8.8.8.8
+- Confirmed DNS resolution and connectivity to google.com
+
+**Status:** ✅ Completed
+## 📸 Evidence
+
+### Network Troubleshooting
+
+![Network Troubleshooting](Network Troubleshooting.png)
+
+### 7. DNS Troubleshooting
 
 Investigated DNS resolution and verified DNS configuration using Linux commands.
 
@@ -175,7 +200,5 @@ Results
 ## 📸 Evidence
 
 ### DNS Troubleshooting
-
-![DNS Troubleshooting](dns-troubleshooting.png)
 
 ![DNS Troubleshooting](dns-troubleshooting-2.png)
