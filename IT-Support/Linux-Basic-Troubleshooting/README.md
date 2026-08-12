@@ -226,4 +226,29 @@ Results
 ### Linux Services
 
 ![linux-services](linux-services.png)
+## 9. User & Group Management
 
+Investigated Linux user accounts, groups, user IDs, group IDs, and group memberships.
+
+### Commands used:
+
+```bash
+getent passwd athira
+getent group athira
+groups
+id athira
+```
+Results
+- Reviewed the Linux user account information
+- Verified the user's home directory and default shell
+- Checked the user's primary group
+- Reviewed the user's group memberships
+- Verified the user's UID and GID
+- Reviewed additional groups assigned to the user
+
+**Status:** ✅ Completed
+## 📸 Evidence
+
+### User & Group Management
+
+![user-group-management](user-group-management.png)
