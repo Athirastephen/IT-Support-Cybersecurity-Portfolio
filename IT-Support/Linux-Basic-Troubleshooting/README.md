@@ -177,7 +177,7 @@ Results
 
 ### Network Troubleshooting
 
-![Network Troubleshooting](Network Troubleshooting.png)
+![Network Troubleshooting](network-troubleshooting.png)
 
 ### 7. DNS Troubleshooting
 
