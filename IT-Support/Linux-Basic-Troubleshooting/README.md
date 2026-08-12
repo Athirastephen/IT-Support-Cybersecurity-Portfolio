@@ -245,6 +245,13 @@ Results
 - Reviewed the user's group memberships
 - Verified the user's UID and GID
 - Reviewed additional groups assigned to the user
+
+**Status:** ✅ Completed
+## 📸 Evidence
+
+### User & Group Management
+
+![user-group-management](user-group-management.png)
 ## 10. File Ownership & Permissions
 
 Investigated Linux file ownership and permissions and used `chmod` to restrict access to a file.
@@ -273,11 +280,3 @@ ls -l permission-test.txt
 ### File Ownership & Permissions
 
 ![File Ownership & Permissions](file-ownership-permissions.png)
-
-
-**Status:** ✅ Completed
-## 📸 Evidence
-
-### User & Group Management
-
-![user-group-management](user-group-management.png)
