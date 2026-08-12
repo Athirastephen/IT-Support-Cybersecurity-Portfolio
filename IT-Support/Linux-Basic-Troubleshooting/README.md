@@ -280,3 +280,31 @@ ls -l permission-test.txt
 ### File Ownership & Permissions
 
 ![File Ownership & Permissions](file-ownership-permissions.png)
+
+## 11. Disk & Storage Troubleshooting
+
+Investigated Linux disk usage, storage capacity, partitions, and mounted filesystems.
+
+### Commands used:
+
+```bash
+df -h
+du -sh ~
+lsblk
+```
+
+### Results
+
+* Reviewed filesystem disk usage and available space
+* Checked the size of the user's home directory
+* Identified available disks and partitions
+* Reviewed mounted filesystems and storage devices
+
+**Status:** ✅ Completed
+
+## 📸 Evidence
+
+### Disk & Storage Troubleshooting
+
+![Disk & Storage Troubleshooting](disk-storage-troubleshooting.png)
+
