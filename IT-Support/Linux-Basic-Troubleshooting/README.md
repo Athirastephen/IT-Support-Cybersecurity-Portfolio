@@ -245,6 +245,35 @@ Results
 - Reviewed the user's group memberships
 - Verified the user's UID and GID
 - Reviewed additional groups assigned to the user
+## 10. File Ownership & Permissions
+
+Investigated Linux file ownership and permissions and used `chmod` to restrict access to a file.
+
+### Commands used:
+
+```bash
+touch permission-test.txt
+ls -l permission-test.txt
+chmod 600 permission-test.txt
+ls -l permission-test.txt
+```
+
+### Results
+
+- Created a test file
+- Reviewed the file owner and group
+- Checked the initial file permissions
+- Changed the file permissions using `chmod 600`
+- Verified that only the owner has read and write permissions
+
+**Status:** ✅ Completed
+
+## 📸 Evidence
+
+### File Ownership & Permissions
+
+![File Ownership & Permissions](file-ownership-permissions.png)
+
 
 **Status:** ✅ Completed
 ## 📸 Evidence
