@@ -394,3 +394,35 @@ I learned how to view, monitor, search, and inspect running processes in Linux. 
 
 #### 3. Finding and Inspecting a Process
 ![Process Management - systemd](Process-Management-3.png)
+## Task 15 – System Resource Monitoring
+
+### Objective
+Learn how to monitor system resources such as CPU, memory, swap, disk usage, and running processes.
+
+### Commands Used
+
+```bash
+uptime
+free -h
+df -h
+top
+ps aux --sort=-%cpu | head -10
+ps aux --sort=-%mem | head -10
+```
+### What I Learned
+uptime – Displays system uptime and load average.
+free -h – Displays memory and swap usage.
+df -h – Displays disk space usage.
+top – Displays real-time CPU, memory, and running process information.
+ps aux --sort=-%cpu | head -10 – Displays the processes using the most CPU.
+ps aux --sort=-%mem | head -10 – Displays the processes using the most memory.
+### Screenshots
+
+#### System Resource Monitoring
+![System Resource Monitoring](Task-15-System-Resources.png)
+
+#### Top Command
+![Top Command](Task-15-Top.png)
+
+#### CPU and Memory Usage
+![CPU and Memory Usage](Task-15-Process-Usage.png)
