@@ -372,3 +372,25 @@ sudo apt install htop
 ![Package Management - Screenshot 3](Package-Management-3.png)
 #### htop System Monitor
 ![htop](htop.png)
+## 14. Process Management
+
+### Commands Used
+- `ps aux` – Lists all running processes.
+- `ps aux | head -20` – Displays the first 20 running processes.
+- `top` – Monitors processes and system resource usage in real time.
+- `pgrep -a systemd` – Finds processes related to systemd.
+- `ps -p 1 -o pid,comm,%cpu,%mem` – Displays details of a specific process.
+
+### What I Learned
+I learned how to view, monitor, search, and inspect running processes in Linux. I also learned how to check CPU and memory usage for specific processes.
+
+### Screenshots
+
+#### 1. Viewing Running Processes
+![Process Management - ps aux](Process-Management-1.png)
+
+#### 2. Monitoring Processes with top
+![Process Management - top](Process-Management-2.png)
+
+#### 3. Finding and Inspecting a Process
+![Process Management - systemd](Process-Management-3.png)
