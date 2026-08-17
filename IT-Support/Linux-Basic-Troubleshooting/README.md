@@ -368,5 +368,7 @@ sudo apt install htop
 ![Package Management - Screenshot 1](Package-Management-1.png)
 
 ![Package Management - Screenshot 2](Package-Management-2.png)
+
+![Package Management - Screenshot 3](Package-Management-3.png)
 #### htop System Monitor
 ![htop](htop.png)
