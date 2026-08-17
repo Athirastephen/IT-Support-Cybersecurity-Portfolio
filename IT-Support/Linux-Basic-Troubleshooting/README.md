@@ -426,3 +426,46 @@ ps aux --sort=-%mem | head -10 – Displays the processes using the most memory.
 
 #### CPU and Memory Usage
 ![CPU and Memory Usage](Task-15-Process-Usage.png)
+## Task 16 – Disk & Storage Troubleshooting
+
+### Objective
+
+Learn how to check disk space, partitions, mounted filesystems, directory sizes, and inode usage for basic Linux storage troubleshooting.
+
+### Commands Used
+
+```bash
+df -h
+du -sh ~
+du -sh ~/Downloads
+lsblk
+mount | column -t
+du -ah ~ | sort -rh | head -10
+df -i
+```
+### What I Learned
+df -h – Displays available and used disk space in a human-readable format.
+du -sh – Shows the total size of a directory.
+lsblk – Displays disks, partitions, and their mount points.
+mount | column -t – Displays mounted filesystems in a readable format.
+du -ah ~ | sort -rh | head -10 – Identifies the largest files and directories in the home directory.
+df -i – Displays inode usage for mounted filesystems.
+
+### Troubleshooting Notes
+
+During the task, column was initially not available, which produced a "command not found" message. I then ran the command again and successfully displayed the mounted filesystem information.
+
+The disk usage check showed that the main filesystem /dev/sda2 had approximately 25% disk usage, with sufficient free space available.
+### Screenshots
+
+#### Disk Space and Partition Information
+
+![Disk Space and Partitions](Task-16-Disk-Space.png)
+
+#### Mounted Filesystems
+
+![Mounted Filesystems](Task-16-Disk-Partitions.png)
+
+#### Storage and Inode Usage
+
+![Storage and Inode Usage](Task-16-Storage-Usage.png)
