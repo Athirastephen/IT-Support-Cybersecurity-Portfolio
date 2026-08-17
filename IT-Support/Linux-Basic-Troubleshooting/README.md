@@ -334,3 +334,39 @@ sudo dmesg | tail -20
 ### Log & Error Troubleshooting
 
 ![log-error-troubleshooting](log-error-troubleshooting.png)
+## 13. Package Management
+
+Practised Linux package management using `apt` to update package information, search for packages, install software, and check available updates.
+
+### Commands used:
+
+```bash
+sudo apt update
+apt list --upgradable
+sudo apt install tree
+tree --version
+apt list --installed | grep tree
+apt show tree
+apt search htop
+sudo apt install htop
+```
+### Results
+- Updated the APT package repository information
+- Checked available package updates
+- Installed and verified the tree package
+- Checked installed package information using apt show
+- Searched for the htop package
+- Installed htop for system monitoring
+- Used htop to view running processes and system resource usage
+
+**Status:** ✅ Completed
+
+## 📸 Evidence
+
+### Package Management
+
+![Package Management - Screenshot 1](Package-Management-1.png)
+
+![Package Management - Screenshot 2](Package-Management-2.png)
+#### htop System Monitor
+![htop](htop.png)
