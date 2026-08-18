@@ -98,12 +98,35 @@ Learned how to use Windows Task Manager to identify running processes and monito
 
 ### 3. Windows Services
 
-Investigated Windows services and their:
+#### Objective
 
-- Status
-- Startup type
+To investigate Windows services and understand their status and startup configuration.
+
+#### Tool Used
+
+- Windows Services (`services.msc`)
+
+#### Information Checked
+
 - Service name
-- Description
+- Service description
+- Service status
+- Startup type
+- Log On As account
+
+#### Findings
+
+Reviewed the Windows Services console to identify services that are currently running and their startup configurations.
+
+Several services were shown as **Running**, with different startup types such as **Automatic** and **Manual**.
+
+#### Key Learning
+
+Learned how to review Windows services and check their status and startup configuration. This is useful for troubleshooting applications and system components that depend on Windows services.
+
+#### Screenshot
+
+![Task 3 – Windows Services](task3-windows-services.png)
 
 ### 4. Event Viewer
 
