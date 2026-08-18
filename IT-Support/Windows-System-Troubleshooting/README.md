@@ -52,7 +52,7 @@ whoami
 Learned how to use built-in Windows command-line tools to quickly gather system information for IT support and troubleshooting.
 #### Screenshots
 
-![Task 1 – System Information](task1-systeminfo.png)
+![Task 1 – System Information](task1-systeminfo_.png)
 
 ![Task 1 – Hostname and User Information](task1-hostname-whoami.png)
 
