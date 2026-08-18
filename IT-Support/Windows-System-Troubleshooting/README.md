@@ -130,7 +130,35 @@ Learned how to review Windows services and check their status and startup config
 
 ### 4. Event Viewer
 
-Reviewed Windows Event Viewer to understand how system and application events are recorded.
+#### Objective
+
+To review Windows event logs and understand how system and application events are recorded.
+
+#### Tool Used
+
+- Windows Event Viewer
+
+#### Steps Performed
+
+1. Opened **Event Viewer**.
+2. Navigated to **Windows Logs → Application**.
+3. Reviewed recorded application events.
+4. Observed different event levels, including:
+   - Information
+   - Warning
+5. Selected an event to review its details, including the event source and Event ID.
+
+#### Findings
+
+The Application log contained both informational and warning events. Event details can be used to investigate application and system issues.
+
+#### Key Learning
+
+Event Viewer is useful for troubleshooting because it provides detailed logs that can help identify errors, warnings, and other system events.
+
+#### Screenshot
+
+![Task 4 – Event Viewer](task4-event-viewer.png)
 
 ### 5. Command-Line Troubleshooting
 
