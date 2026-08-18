@@ -514,5 +514,52 @@ The logs showed several examples of system errors and warnings, including failed
 
 ![Kernel Logs](Task-17-Kernel-Logs.png)
 
+## Task 18 – Process & Service Troubleshooting
 
+### Objective
 
+Learn how to view running processes, identify processes by name, check running services, and troubleshoot service availability using `systemctl`.
+
+### Commands Used
+
+```bash
+ps aux | head -20
+pgrep -a systemd
+systemctl list-units --type=service --state=running
+systemctl status ssh
+````
+
+### What I Learned
+
+**ps aux | head -20** – Displays a list of currently running processes with details such as the user, PID, CPU usage, memory usage, and command.
+
+**pgrep -a systemd** – Searches for processes matching `systemd` and displays their process IDs and command lines.
+
+**systemctl list-units --type=service --state=running** – Displays services that are currently active and running.
+
+**systemctl status ssh** – Checks the status of the SSH service.
+
+### Troubleshooting Notes
+
+The system showed multiple active services, including NetworkManager, systemd-journald, systemd-resolved, cups, cron, and VirtualBox Guest Utilities.
+
+When checking the SSH service, the command returned:
+
+```text
+Unit ssh.service could not be found.
+```
+
+This indicates that the SSH service is not installed or is not available under that service name on the system.
+
+### Key Takeaway
+
+Process and service troubleshooting helps identify whether a Linux application or background service is running and can help determine why a service may not be available.
+### Screenshots
+
+#### Process and Service Checks
+
+![Process and service troubleshooting](task18-process-services.png)
+
+#### Service Status Check
+
+![SSH service status](task18-ssh-status.png)
