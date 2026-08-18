@@ -25,13 +25,36 @@ This project documents hands-on Windows troubleshooting and system administratio
 
 ### 1. System Information
 
-Used Windows tools to identify basic system information such as:
+#### Objective
 
-- Operating system
-- System architecture
-- Processor
-- Memory
-- Computer name
+To gather basic Windows system information using built-in command-line tools.
+
+#### Commands Used
+
+```cmd
+systeminfo
+hostname
+whoami
+````
+
+#### Information Checked
+
+* Operating system and version
+* System architecture
+* Processor details
+* Installed physical memory
+* Computer name
+* Current logged-in user
+* Network configuration
+
+#### Key Learning
+
+Learned how to use built-in Windows command-line tools to quickly gather system information for IT support and troubleshooting.
+#### Screenshots
+
+![Task 1 – System Information](task1-systeminfo.png)
+
+![Task 1 – Hostname and User Information](task1-hostname-whoami.png)
 
 ### 2. Running Processes
 
