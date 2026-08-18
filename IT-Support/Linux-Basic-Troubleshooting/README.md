@@ -563,3 +563,51 @@ Process and service troubleshooting helps identify whether a Linux application o
 #### Service Status Check
 
 ![SSH service status](task18-ssh-status.png)
+
+## Task 19 – Basic Linux Troubleshooting Scenario
+
+### Scenario
+
+A user reports that their Linux computer is running slowly. The objective is to investigate system load, memory usage, disk space, and resource-intensive processes.
+
+### Commands Used
+
+```bash
+uptime
+free -h
+df -h
+ps aux --sort=-%cpu | head -10
+ps aux --sort=-%mem | head -10
+````
+
+### Troubleshooting Steps
+
+1. Checked the system load using `uptime`.
+2. Checked available and used memory using `free -h`.
+3. Checked disk space using `df -h`.
+4. Checked processes with the highest CPU usage.
+5. Checked processes with the highest memory usage.
+
+### Findings
+
+* System load was very low: `0.00, 0.03, 0.10`.
+* Approximately **5.9 GiB of memory was available**.
+* The main filesystem `/dev/sda2` was **25% used**, with approximately **35 GB available**.
+* No process showed unusually high CPU usage.
+* GNOME Shell and Ptyxis were among the higher memory-using processes, but their usage was not excessive.
+
+### Conclusion
+
+The checks did not show a significant CPU, memory, or disk-space problem. The system had sufficient available memory and disk space, and the CPU load was low.
+
+### Key Takeaway
+
+A structured troubleshooting approach helps identify whether system performance issues are related to CPU, memory, disk space, or individual processes.
+
+### Screenshot
+
+![Task 19 – Basic Linux Troubleshooting Scenario](task19.png)
+
+
+
+
