@@ -58,13 +58,43 @@ Learned how to use built-in Windows command-line tools to quickly gather system 
 
 ### 2. Running Processes
 
-Used Task Manager to investigate:
+#### Objective
+
+To investigate running applications and background processes and review their resource usage using Windows Task Manager.
+
+#### Tool Used
+
+- Windows Task Manager
+
+#### Information Checked
 
 - Running applications
 - Background processes
 - CPU usage
 - Memory usage
 - Disk usage
+- Network usage
+
+#### Findings
+
+Task Manager was used to review the processes currently running on the system.
+
+At the time of testing:
+
+- CPU usage was approximately **8%**
+- Memory usage was approximately **84%**
+- Disk usage was approximately **2%**
+- Network usage was approximately **0%**
+
+Google Chrome and Microsoft Teams were among the applications using higher amounts of memory, while VirtualBox was using some CPU and memory resources.
+
+#### Key Learning
+
+Learned how to use Windows Task Manager to identify running processes and monitor system resource usage. This can help IT support staff investigate performance-related issues.
+
+#### Screenshot
+
+![Task 2 – Running Processes](task2-running-processes.png)
 
 ### 3. Windows Services
 
