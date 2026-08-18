@@ -469,3 +469,50 @@ The disk usage check showed that the main filesystem /dev/sda2 had approximately
 #### Storage and Inode Usage
 
 ![Storage and Inode Usage](Task-16-Storage-Usage.png)
+
+## Task 17 – Log & Error Troubleshooting
+
+### Objective
+
+Learn how to view Linux system logs, identify errors and warnings, and check kernel messages for basic troubleshooting.
+
+### Commands Used
+
+```bash
+journalctl -n 20
+journalctl -p err -n 10
+journalctl -p warning -n 10
+sudo dmesg | tail -20
+````
+
+### What I Learned
+
+* `journalctl -n 20` – Displays the most recent system journal entries.
+* `journalctl -p err -n 10` – Displays recent error-level messages from the system journal.
+* `journalctl -p warning -n 10` – Displays recent warning-level messages.
+* `sudo dmesg | tail -20` – Displays the latest kernel messages and can help identify system-level issues.
+
+### Troubleshooting Notes
+
+During the task, `dmesg` initially returned a permission error:
+
+```text
+dmesg: read kernel buffer failed: Operation not permitted
+```
+
+I then used `sudo dmesg | tail -20` to successfully view the kernel messages.
+
+The logs showed several examples of system errors and warnings, including failed services, kernel watchdog messages, and system timing warnings. This helped me understand how Linux logs can be used to investigate and troubleshoot system issues.
+
+### Screenshots
+
+#### Log Errors and Warnings
+
+![Log Errors and Warnings](Task-17-Log-Errors.png)
+
+#### Kernel Logs
+
+![Kernel Logs](Task-17-Kernel-Logs.png)
+
+
+
